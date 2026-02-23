@@ -1,13 +1,10 @@
-# app.py
 import json
 import random
 from datetime import datetime
 from pathlib import Path
-
 import streamlit as st
 
 st.set_page_config(page_title="Semantle Football", page_icon="⚽", layout="centered")
-
 PLAYERS_FILE = Path("players.json")
 
 @st.cache_data
@@ -17,68 +14,98 @@ def load_players():
     with PLAYERS_FILE.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    names = []
+    players = []
     for p in data:
         name = str(p.get("name", "")).strip()
-        if name:
-            names.append(name)
+        if not name:
+            continue
+        players.append({
+            "name": name,
+            "league": str(p.get("league", "")).strip(),
+            "team": str(p.get("team", "")).strip(),
+            "position": str(p.get("position", "")).strip(),
+            "nationality": str(p.get("nationality", "")).strip(),
+        })
 
-    # מסדר ומנקה כפילויות
-    names = sorted(set(names), key=lambda x: x.lower())
-    return names
+    # ניקוי כפילויות לפי (name, team, league)
+    seen = set()
+    dedup = []
+    for p in players:
+        key = (p["name"].lower(), p["team"].lower(), p["league"].lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        dedup.append(p)
 
-def new_game(names):
-    st.session_state["secret"] = random.choice(names)
+    dedup.sort(key=lambda x: x["name"].lower())
+    return dedup
+
+def new_game(players):
+    st.session_state["secret"] = random.choice(players)
     st.session_state["history"] = []
     st.session_state["last_score"] = None
 
-def compute_similarity(secret_name: str, guess_name: str) -> int:
-    s = secret_name.lower().strip()
-    g = guess_name.lower().strip()
-    if s == g:
+def compute_similarity(secret: dict, guess: dict) -> int:
+    if secret["name"].strip().lower() == guess["name"].strip().lower():
         return 100
 
-    # ניקוד דמה בסיסי, אפשר לשפר אחר כך עם דאטה נוסף
-    score = 10
+    score = 0
+    W_LEAGUE = 30
+    W_TEAM = 45
+    W_POS = 15
+    W_NATION = 10
+
+    if secret["league"] and guess["league"] and secret["league"] == guess["league"]:
+        score += W_LEAGUE
+    if secret["team"] and guess["team"] and secret["team"] == guess["team"]:
+        score += W_TEAM
+    if secret["position"] and guess["position"] and secret["position"] == guess["position"]:
+        score += W_POS
+    if secret["nationality"] and guess["nationality"] and secret["nationality"] == guess["nationality"]:
+        score += W_NATION
+
+    s = secret["name"].lower()
+    g = guess["name"].lower()
     overlap = len(set(s) & set(g))
-    score += min(60, overlap * 4)
+    score += min(5, overlap // 3)
 
-    # בונוס על prefix
-    if s.startswith(g) or g.startswith(s):
-        score += 15
-
-    return max(0, min(99, int(score)))
+    return min(99, score)
 
 st.title("⚽ Semantle Football")
-st.caption("לחץ על השדה, תתחיל להקליד, ותבחר שחקן. זה autocomplete אמיתי במובייל.")
+st.caption("לחץ על השדה, תתחיל להקליד, ותבחר שחקן. הניקוד לפי ליגה/קבוצה/עמדה/לאום.")
 
-names = load_players()
-if not names:
+players = load_players()
+if not players:
     st.error("לא נמצא players.json ליד app.py")
     st.stop()
 
 if "secret" not in st.session_state:
-    new_game(names)
+    new_game(players)
 
 with st.sidebar:
     st.subheader("Game")
     if st.button("New Game", use_container_width=True):
-        new_game(names)
+        new_game(players)
         st.rerun()
 
     reveal = st.toggle("Admin: reveal secret", value=False)
     if reveal:
-        st.info(f'SECRET: {st.session_state["secret"]}')
+        s = st.session_state["secret"]
+        st.info(f'SECRET: {s["name"]}')
 
-# שדה אחד בלבד עם חיפוש מובנה
-guess_name = st.selectbox("חפש ובחר שחקן", names)
+# מציג רק שם, אבל שומר את כל האובייקט
+guess_player = st.selectbox(
+    "חפש ובחר שחקן",
+    players,
+    format_func=lambda p: p["name"]
+)
 
 if st.button("בדוק ציון", use_container_width=True):
-    score = compute_similarity(st.session_state["secret"], guess_name)
+    score = compute_similarity(st.session_state["secret"], guess_player)
     st.session_state["last_score"] = score
     st.session_state["history"].insert(0, {
         "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "guess": guess_name,
+        "guess": guess_player["name"],
         "score": score
     })
 
