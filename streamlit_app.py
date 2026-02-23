@@ -7,11 +7,10 @@ from pathlib import Path
 import streamlit as st
 
 st.set_page_config(page_title="Semantle Football", page_icon="⚽", layout="centered")
-
 PLAYERS_FILE = Path("players.json")
 
 # -----------------------------
-# League filtering (auto detect top 7)
+# Settings (you can tweak)
 # -----------------------------
 TOP7_TOKENS = {
     "premier league",
@@ -23,27 +22,26 @@ TOP7_TOKENS = {
     "eredivisie",
 }
 
+# Reduce player pool:
+EXCLUDE_GK = True
+MIN_MINUTES = 450  # 5 games of 90min; set to 0 to disable minutes filtering
+
 def is_top7_league(league: str) -> bool:
     l = (league or "").strip().lower()
     return any(tok in l for tok in TOP7_TOKENS)
 
-# -----------------------------
-# Position grouping
-# -----------------------------
 def pos_group(pos: str) -> str:
     p = (pos or "").strip().upper()
     if not p:
         return "UNK"
-    # Data often has: GK, DF, MF, FW or similar
-    if "GK" in p or p == "G":
+    if "GK" in p:
         return "GK"
-    if "DF" in p or "D" == p:
+    if "DF" in p:
         return "DEF"
-    if "MF" in p or "M" == p:
+    if "MF" in p:
         return "MID"
-    if "FW" in p or "F" == p:
+    if "FW" in p:
         return "FWD"
-    # Fallback: try common words
     if "DEF" in p:
         return "DEF"
     if "MID" in p:
@@ -52,9 +50,21 @@ def pos_group(pos: str) -> str:
         return "FWD"
     return "UNK"
 
-# -----------------------------
-# Load players
-# -----------------------------
+def safe_int(x, default=0):
+    try:
+        if x is None:
+            return default
+        if isinstance(x, (int, float)):
+            return int(x)
+        s = str(x).strip()
+        if not s:
+            return default
+        # handle "1,234"
+        s = s.replace(",", "")
+        return int(float(s))
+    except Exception:
+        return default
+
 @st.cache_data
 def load_players() -> list[dict]:
     if not PLAYERS_FILE.exists():
@@ -77,14 +87,31 @@ def load_players() -> list[dict]:
         position = str(p.get("position", "")).strip()
         nationality = str(p.get("nationality", "")).strip()
 
+        g = pos_group(position)
+        if EXCLUDE_GK and g == "GK":
+            continue
+
+        # Minutes: try common keys if present, otherwise 0
+        minutes = (
+            safe_int(p.get("minutes", None), 0)
+            or safe_int(p.get("Min", None), 0)
+            or safe_int(p.get("Minutes", None), 0)
+            or safe_int(p.get("min", None), 0)
+        )
+
+        # If minutes exist and MIN_MINUTES > 0, filter
+        if MIN_MINUTES > 0 and minutes > 0 and minutes < MIN_MINUTES:
+            continue
+
         players.append(
             {
                 "name": name,
                 "league": league,
                 "team": team,
                 "position": position,
-                "pos_group": pos_group(position),
+                "pos_group": g,
                 "nationality": nationality,
+                "minutes": minutes,
             }
         )
 
@@ -101,11 +128,7 @@ def load_players() -> list[dict]:
     dedup.sort(key=lambda x: x["name"].lower())
     return dedup
 
-# -----------------------------
-# Scoring
-# -----------------------------
 def compute_similarity(secret: dict, guess: dict) -> int:
-    # Exact hit
     if secret["name"].strip().lower() == guess["name"].strip().lower():
         return 100
 
@@ -115,47 +138,37 @@ def compute_similarity(secret: dict, guess: dict) -> int:
     same_team = secret["team"] and secret["team"] == guess["team"]
     same_nat = secret["nationality"] and secret["nationality"] == guess["nationality"]
 
-    # Strongest signal
+    # Strong signal
     if same_team:
         score += 55
     elif same_league:
         score += 28
-    else:
-        score += 0
 
-    # Positions
+    # Position
     if secret["position"] and guess["position"] and secret["position"] == guess["position"]:
         score += 20
     elif secret["pos_group"] != "UNK" and secret["pos_group"] == guess["pos_group"]:
         score += 14
-    else:
-        score += 0
 
     # Nationality
     if same_nat:
         score += 12
 
-    # Small club-name related bonus (helps when strings are similar)
-    # Example: "Manchester City" vs "Manchester United"
+    # Small club-name overlap bonus
     s_team = (secret["team"] or "").lower()
     g_team = (guess["team"] or "").lower()
     if s_team and g_team and not same_team:
         s_words = set(w for w in s_team.replace("-", " ").split() if len(w) >= 4)
         g_words = set(w for w in g_team.replace("-", " ").split() if len(w) >= 4)
-        inter = len(s_words & g_words)
-        score += min(5, inter * 2)
+        score += min(5, len(s_words & g_words) * 2)
 
-    # Small name overlap bonus (never a main signal)
+    # Tiny name overlap bonus
     s = secret["name"].lower()
     g = guess["name"].lower()
     score += min(4, len(set(s) & set(g)) // 4)
 
-    # Keep 99 max if not exact
     return max(0, min(99, int(score)))
 
-# -----------------------------
-# Game state
-# -----------------------------
 def new_game(players: list[dict]):
     st.session_state["secret"] = random.choice(players)
     st.session_state["history"] = []
@@ -165,14 +178,14 @@ def new_game(players: list[dict]):
 # UI
 # -----------------------------
 st.title("⚽ Semantle Football")
-st.caption("חפש שחקן והניחוש יחזיר ציון קרבה 0–100. השחקן הסודי נבחר רק מהטופ 7 ליגות.")
+st.caption("חפש שחקן והניחוש יחזיר ציון קרבה 0–100. המאגר מצומצם לשחקנים פעילים בטופ 7.")
 
 players = load_players()
 if not players:
-    st.error("לא הצלחתי לטעון שחקנים מהטופ 7 ליגות מתוך players.json. בדוק שהקובץ קיים ושיש בו נתונים.")
+    st.error("המאגר יצא ריק אחרי הסינון. נסה להוריד MIN_MINUTES או לבטל EXCLUDE_GK.")
     st.stop()
 
-# Handle duplicate names: show team only for duplicates
+# Duplicate names: show team only if needed
 name_counts = {}
 for p in players:
     name_counts[p["name"]] = name_counts.get(p["name"], 0) + 1
@@ -191,18 +204,24 @@ with st.sidebar:
         new_game(players)
         st.rerun()
 
-    reveal = st.toggle("Admin: reveal secret", value=False)
-    if reveal:
-        s = st.session_state["secret"]
-        st.info(f'SECRET: {s["name"]} | {s["team"]} | {s["league"]}')
-
+# Single search-select field
 guess_player = st.selectbox(
     "חפש ובחר שחקן",
     players,
     format_func=option_label,
 )
 
-if st.button("בדוק ציון", use_container_width=True):
+col1, col2 = st.columns([1, 1])
+with col1:
+    check = st.button("בדוק ציון", use_container_width=True)
+with col2:
+    reveal_btn = st.button("Reveal secret (בדיקה)", use_container_width=True)
+
+if reveal_btn:
+    s = st.session_state["secret"]
+    st.info(f'סודי: {s["name"]} | {s["team"]} | {s["league"]}')
+
+if check:
     secret = st.session_state["secret"]
     score = compute_similarity(secret, guess_player)
     st.session_state["last_score"] = score
@@ -238,6 +257,8 @@ if st.session_state.get("last_score") is not None:
 
 st.divider()
 st.subheader("היסטוריית ניחושים")
+st.caption(f"סה״כ שחקנים במאגר המצומצם: {len(players)}")
+
 if st.session_state["history"]:
     st.dataframe(st.session_state["history"], use_container_width=True, hide_index=True)
 else:
