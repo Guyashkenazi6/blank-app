@@ -11,7 +11,7 @@ st.set_page_config(page_title="Semantle Football", page_icon="⚽", layout="cent
 PLAYERS_FILE = Path("players.json")
 
 @st.cache_data
-def load_players() -> list[dict]:
+def load_players():
     if not PLAYERS_FILE.exists():
         return []
     with PLAYERS_FILE.open("r", encoding="utf-8") as f:
@@ -29,15 +29,17 @@ def load_players() -> list[dict]:
             "position": str(p.get("position", "")).strip(),
             "nationality": str(p.get("nationality", "")).strip(),
         })
+
+    # שם קטן אבל חשוב: רשימה ממוינת נותנת השלמות יציבות
+    players.sort(key=lambda x: x["name"].lower())
     return players
 
-def new_game(players: list[dict]):
+def new_game(players):
     st.session_state["secret"] = random.choice(players)
     st.session_state["history"] = []
     st.session_state["last_score"] = None
-    st.session_state["last_guess"] = None
 
-def compute_similarity(secret: dict, guess: dict) -> int:
+def compute_similarity(secret, guess):
     if secret["name"].lower() == guess["name"].lower():
         return 100
 
@@ -56,17 +58,24 @@ def compute_similarity(secret: dict, guess: dict) -> int:
 
     return max(0, min(99, int(score)))
 
+# ---------- UI ----------
 st.title("⚽ Semantle Football")
-st.caption("תתחיל להקליד שם שחקן, ותבחר מהרשימה שנפתחת. בלי ליגות, בלי קבוצות.")
+st.caption("תתחיל להקליד שם שחקן, ותקבל הצעות ללחיצה כמו autocomplete.")
 
 players = load_players()
 if not players:
     st.error("לא נמצא players.json ליד app.py")
     st.stop()
 
-# init state
+# Session init
 if "secret" not in st.session_state:
     new_game(players)
+
+if "query" not in st.session_state:
+    st.session_state["query"] = ""
+
+if "selected_name" not in st.session_state:
+    st.session_state["selected_name"] = ""
 
 with st.sidebar:
     st.subheader("Game")
@@ -76,47 +85,72 @@ with st.sidebar:
 
     reveal = st.toggle("Admin: reveal secret", value=False)
     if reveal:
-        s = st.session_state["secret"]
-        st.info(f'SECRET: {s["name"]}')
+        st.info(f'SECRET: {st.session_state["secret"]["name"]}')
 
-# ---- Autocomplete-like picker ----
-query = st.text_input("חיפוש שם שחקן", placeholder="לדוגמה: haa / haaland / salah").strip().lower()
+# --- Search input ---
+st.session_state["query"] = st.text_input(
+    "חיפוש שחקן",
+    value=st.session_state["query"],
+    placeholder="לדוגמה: haa / haaland / salah"
+).strip()
 
-# אם אין טקסט, נציג מעט שחקנים רנדומליים כדי שיהיה מה לבחור
-if query:
-    matches = [p for p in players if query in p["name"].lower()]
-else:
-    # 50 אקראיים כדי לא להעמיס
-    matches = random.sample(players, k=min(50, len(players)))
+q = st.session_state["query"].lower()
 
-# הגבלה כדי שיטען מהר בטלפון
-MAX_OPTIONS = 300
-matches = matches[:MAX_OPTIONS]
+# --- Build suggestions ---
+SUGGESTIONS_LIMIT = 8
 
-if not matches:
-    st.warning("לא נמצאו שחקנים שמתאימים למה שהקלדת.")
-    st.stop()
+def matches(p):
+    return q in p["name"].lower()
 
-# dropdown מציג רק שמות (כמו שביקשת)
-names = [p["name"] for p in matches]
+suggestions = []
+if q:
+    suggestions = [p["name"] for p in players if matches(p)]
+    suggestions = suggestions[:SUGGESTIONS_LIMIT]
 
-chosen_name = st.selectbox("בחר שחקן", names)
+# --- Suggestions UI (clickable) ---
+if q and suggestions:
+    st.markdown("**השלמות:**")
+    for name in suggestions:
+        # כפתור לכל הצעה
+        if st.button(name, key=f"sug_{name}", use_container_width=True):
+            st.session_state["selected_name"] = name
+            st.session_state["query"] = name
+            st.rerun()
+elif q and not suggestions:
+    st.warning("לא נמצאו השלמות למה שהקלדת.")
 
-# למצוא את האובייקט המלא לפי שם (אם יש כפילויות שם, ניקח את הראשון)
-chosen_player = next(p for p in matches if p["name"] == chosen_name)
+# --- Selected player (must be exact match) ---
+chosen_name = st.session_state["selected_name"] or st.session_state["query"]
 
-if st.button("בדוק ציון", use_container_width=True):
-    secret = st.session_state["secret"]
-    score = compute_similarity(secret, chosen_player)
+# חיפוש exact match במאגר
+chosen_player = next((p for p in players if p["name"].lower() == chosen_name.lower()), None)
 
-    st.session_state["last_score"] = score
-    st.session_state["last_guess"] = chosen_player["name"]
-    st.session_state["history"].insert(0, {
-        "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "guess": chosen_player["name"],
-        "score": score
-    })
+col1, col2 = st.columns([1, 1])
+with col1:
+    check = st.button("בדוק ציון", use_container_width=True)
+with col2:
+    clear = st.button("נקה", use_container_width=True)
 
+if clear:
+    st.session_state["query"] = ""
+    st.session_state["selected_name"] = ""
+    st.rerun()
+
+if check:
+    if not chosen_player:
+        st.error("כדי לבדוק ציון, תבחר שחקן מההשלמות (או תרשום שם בדיוק כמו במאגר).")
+    else:
+        secret = st.session_state["secret"]
+        score = compute_similarity(secret, chosen_player)
+
+        st.session_state["last_score"] = score
+        st.session_state.setdefault("history", []).insert(0, {
+            "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "guess": chosen_player["name"],
+            "score": score
+        })
+
+# --- Score display ---
 if st.session_state.get("last_score") is not None:
     score = st.session_state["last_score"]
     st.subheader(f"ציון קרבה: {score} / 100")
@@ -141,7 +175,7 @@ if st.session_state.get("last_score") is not None:
 
 st.divider()
 st.subheader("היסטוריית ניחושים")
-if st.session_state["history"]:
+if st.session_state.get("history"):
     st.dataframe(st.session_state["history"], use_container_width=True, hide_index=True)
 else:
     st.write("עדיין אין ניחושים.")
