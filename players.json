@@ -1,2277 +1,351 @@
 [
-  {
-    "name": "Ederson",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Kyle Walker",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Rúben Dias",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "John Stones",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Joško Gvardiol",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Rodri",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Kevin De Bruyne",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Bernardo Silva",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Phil Foden",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Erling Haaland",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Julián Álvarez",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Jérémy Doku",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Jack Grealish",
-    "league": "Premier League",
-    "team": "Manchester City",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Alisson",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Trent Alexander-Arnold",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Virgil van Dijk",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ibrahima Konaté",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Andrew Robertson",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Alexis Mac Allister",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Dominik Szoboszlai",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Curtis Jones",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Mohamed Salah",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Luis Díaz",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Darwin Núñez",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Diogo Jota",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Cody Gakpo",
-    "league": "Premier League",
-    "team": "Liverpool",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "David Raya",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Ben White",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "William Saliba",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Gabriel Magalhães",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Oleksandr Zinchenko",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Declan Rice",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Martin Ødegaard",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Kai Havertz",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Bukayo Saka",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Gabriel Martinelli",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Leandro Trossard",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Gabriel Jesus",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Jurrien Timber",
-    "league": "Premier League",
-    "team": "Arsenal",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Robert Sánchez",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Reece James",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Thiago Silva",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Levi Colwill",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ben Chilwell",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Moisés Caicedo",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Enzo Fernández",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Conor Gallagher",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Cole Palmer",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Nicolas Jackson",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Raheem Sterling",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Mykhailo Mudryk",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Christopher Nkunku",
-    "league": "Premier League",
-    "team": "Chelsea",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "André Onana",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Diogo Dalot",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Raphaël Varane",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Lisandro Martínez",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Luke Shaw",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Casemiro",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Bruno Fernandes",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Kobbie Mainoo",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Marcus Rashford",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Rasmus Højlund",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Alejandro Garnacho",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Antony",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Mason Mount",
-    "league": "Premier League",
-    "team": "Manchester United",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Thibaut Courtois",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Dani Carvajal",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Éder Militão",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Antonio Rüdiger",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ferland Mendy",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Aurélien Tchouaméni",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Federico Valverde",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Jude Bellingham",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Vinícius Júnior",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Rodrygo",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Joselu",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Eduardo Camavinga",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Luka Modrić",
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Marc-André ter Stegen",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Jules Koundé",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ronald Araújo",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Pau Cubarsí",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Alejandro Balde",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Frenkie de Jong",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Pedri",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "İlkay Gündoğan",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Lamine Yamal",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Robert Lewandowski",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Raphinha",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Gavi",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "João Félix",
-    "league": "La Liga",
-    "team": "Barcelona",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Jan Oblak",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "José María Giménez",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Axel Witsel",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Reinildo",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Nahuel Molina",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Rodrigo De Paul",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Koke",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Marcos Llorente",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Antoine Griezmann",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Álvaro Morata",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Samuel Lino",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Saúl Ñíguez",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Pablo Barrios",
-    "league": "La Liga",
-    "team": "Atlético Madrid",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Ørjan Nyland",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Jesús Navas",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Sergio Ramos",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Loïc Badé",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Marcos Acuña",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ivan Rakitić",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Boubakary Soumaré",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Óliver Torres",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Lucas Ocampos",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Youssef En-Nesyri",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Suso",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Dodi Lukébakio",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Mariano Díaz",
-    "league": "La Liga",
-    "team": "Sevilla",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Álex Remiro",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Hamari Traoré",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Robin Le Normand",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Igor Zubeldia",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Aihen Muñoz",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Martín Zubimendi",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Mikel Merino",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Brais Méndez",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Takefusa Kubo",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Mikel Oyarzabal",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ander Barrenetxea",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Umar Sadiq",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Arsen Zakharyan",
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Yann Sommer",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Benjamin Pavard",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Alessandro Bastoni",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Francesco Acerbi",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Denzel Dumfries",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Federico Dimarco",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Hakan Çalhanoğlu",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Nicolò Barella",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Henrikh Mkhitaryan",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Lautaro Martínez",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Marcus Thuram",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Davide Frattesi",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Carlos Augusto",
-    "league": "Serie A",
-    "team": "Inter",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Mike Maignan",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Davide Calabria",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Fikayo Tomori",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Malick Thiaw",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Theo Hernández",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Tijjani Reijnders",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Yunus Musah",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Ruben Loftus-Cheek",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Rafael Leão",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Olivier Giroud",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Christian Pulisic",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Samuel Chukwueze",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ismaël Bennacer",
-    "league": "Serie A",
-    "team": "Milan",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Wojciech Szczęsny",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Danilo",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Bremer",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Federico Gatti",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Andrea Cambiaso",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Adrien Rabiot",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Manuel Locatelli",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Weston McKennie",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Federico Chiesa",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Dušan Vlahović",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Arkadiusz Milik",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Filip Kostić",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Paul Pogba",
-    "league": "Serie A",
-    "team": "Juventus",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Alex Meret",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Giovanni Di Lorenzo",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Amir Rrahmani",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Juan Jesus",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Mathías Olivera",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Stanislav Lobotka",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Frank Anguissa",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Piotr Zieliński",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Khvicha Kvaratskhelia",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Victor Osimhen",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Matteo Politano",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Giacomo Raspadori",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Jesper Lindstrøm",
-    "league": "Serie A",
-    "team": "Napoli",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Rui Patrício",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Gianluca Mancini",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Chris Smalling",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Evan Ndicka",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Leonardo Spinazzola",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Bryan Cristante",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Lorenzo Pellegrini",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Leandro Paredes",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Paulo Dybala",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Romelu Lukaku",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Stephan El Shaarawy",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Nicola Zalewski",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Tammy Abraham",
-    "league": "Serie A",
-    "team": "Roma",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Manuel Neuer",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Joshua Kimmich",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Dayot Upamecano",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Matthijs de Ligt",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Alphonso Davies",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Leon Goretzka",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Konrad Laimer",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Jamal Musiala",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Leroy Sané",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Harry Kane",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Kingsley Coman",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Thomas Müller",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Serge Gnabry",
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Gregor Kobel",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Mats Hummels",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Nico Schlotterbeck",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Niklas Süle",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Julian Ryerson",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Emre Can",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Marcel Sabitzer",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Julian Brandt",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Jadon Sancho",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Karim Adeyemi",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Niclas Füllkrug",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Donyell Malen",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Marco Reus",
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Lukáš Hrádecký",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Jeremie Frimpong",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Jonathan Tah",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Piero Hincapié",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Alejandro Grimaldo",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Granit Xhaka",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Exequiel Palacios",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Florian Wirtz",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Jonas Hofmann",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Victor Boniface",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Patrik Schick",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Nathan Tella",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Robert Andrich",
-    "league": "Bundesliga",
-    "team": "Bayer Leverkusen",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Péter Gulácsi",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Mohamed Simakan",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Willi Orbán",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Castello Lukeba",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "David Raum",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Xaver Schlager",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Kevin Kampl",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Dani Olmo",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Loïs Openda",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Benjamin Šeško",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Yussuf Poulsen",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Christoph Baumgartner",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Xavi Simons",
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Kevin Trapp",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Robin Koch",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Tuta",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "William Pacho",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Philipp Max",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ellyes Skhiri",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Mario Götze",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Hugo Larsson",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Omar Marmoush",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ansgar Knauff",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Farès Chaïbi",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Sasa Kalajdzic",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Junior Dina Ebimbe",
-    "league": "Bundesliga",
-    "team": "Eintracht Frankfurt",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Gianluigi Donnarumma",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Achraf Hakimi",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Marquinhos",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Milan Škriniar",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Nuno Mendes",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Vitinha",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Warren Zaïre-Emery",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Fabián Ruiz",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Ousmane Dembélé",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Kylian Mbappé",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Gonçalo Ramos",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Bradley Barcola",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Randal Kolo Muani",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Pau López",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Jonathan Clauss",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Samuel Gigot",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Leonardo Balerdi",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Renan Lodi",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Jordan Veretout",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Geoffrey Kondogbia",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Pierre-Emile Højbjerg",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Azzedine Ounahi",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Pierre-Emerick Aubameyang",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ismaïla Sarr",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Joaquín Correa",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Amine Harit",
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Philipp Köhn",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Vanderson",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Guillermo Maripán",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Mohammed Salisu",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Caio Henrique",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Youssouf Fofana",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Denis Zakaria",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Takumi Minamino",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Aleksandr Golovin",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Wissam Ben Yedder",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Breel Embolo",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Folarin Balogun",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Maghnes Akliouche",
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Lucas Chevalier",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Tiago Santos",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Bafodé Diakité",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Leny Yoro",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Ismaily",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Benjamin André",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Angel Gomes",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Nabil Bentaleb",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Jonathan David",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Edon Zhegrova",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Rémy Cabella",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Hákon Arnar Haraldsson",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Yusuf Yazıcı",
-    "league": "Ligue 1",
-    "team": "Lille",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Anthony Lopes",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "GK",
-    "nationality": ""
-  },
-  {
-    "name": "Clinton Mata",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Dejan Lovren",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Duje Ćaleta-Car",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Nicolás Tagliafico",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "DF",
-    "nationality": ""
-  },
-  {
-    "name": "Maxence Caqueret",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Corentin Tolisso",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Rayan Cherki",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "MF",
-    "nationality": ""
-  },
-  {
-    "name": "Alexandre Lacazette",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ernest Nuamah",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Saïd Benrahma",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Malick Fofana",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "FW",
-    "nationality": ""
-  },
-  {
-    "name": "Ainsley Maitland-Niles",
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "position": "DF",
-    "nationality": ""
-  }
+  {"name": "Ruben Dias", "league": "Premier League", "team": "Manchester City", "position": "DF", "nationality": "Portugal", "minutes": 2500},
+  {"name": "Manuel Akanji", "league": "Premier League", "team": "Manchester City", "position": "DF", "nationality": "Switzerland", "minutes": 2400},
+  {"name": "Josko Gvardiol", "league": "Premier League", "team": "Manchester City", "position": "DF", "nationality": "Croatia", "minutes": 2100},
+  {"name": "Kyle Walker", "league": "Premier League", "team": "Manchester City", "position": "DF", "nationality": "England", "minutes": 2600},
+  {"name": "Nathan Ake", "league": "Premier League", "team": "Manchester City", "position": "DF", "nationality": "Netherlands", "minutes": 1800},
+  {"name": "Rodri", "league": "Premier League", "team": "Manchester City", "position": "MF", "nationality": "Spain", "minutes": 2900},
+  {"name": "Kevin De Bruyne", "league": "Premier League", "team": "Manchester City", "position": "MF", "nationality": "Belgium", "minutes": 1500},
+  {"name": "Bernardo Silva", "league": "Premier League", "team": "Manchester City", "position": "MF", "nationality": "Portugal", "minutes": 2700},
+  {"name": "Phil Foden", "league": "Premier League", "team": "Manchester City", "position": "MF", "nationality": "England", "minutes": 2800},
+  {"name": "Mateo Kovacic", "league": "Premier League", "team": "Manchester City", "position": "MF", "nationality": "Croatia", "minutes": 1900},
+  {"name": "Erling Haaland", "league": "Premier League", "team": "Manchester City", "position": "FW", "nationality": "Norway", "minutes": 2600},
+  {"name": "Jeremy Doku", "league": "Premier League", "team": "Manchester City", "position": "FW", "nationality": "Belgium", "minutes": 1700},
+  {"name": "Jack Grealish", "league": "Premier League", "team": "Manchester City", "position": "FW", "nationality": "England", "minutes": 1600},
+
+  {"name": "William Saliba", "league": "Premier League", "team": "Arsenal", "position": "DF", "nationality": "France", "minutes": 3400},
+  {"name": "Gabriel Magalhaes", "league": "Premier League", "team": "Arsenal", "position": "DF", "nationality": "Brazil", "minutes": 3200},
+  {"name": "Ben White", "league": "Premier League", "team": "Arsenal", "position": "DF", "nationality": "England", "minutes": 3100},
+  {"name": "Jurrien Timber", "league": "Premier League", "team": "Arsenal", "position": "DF", "nationality": "Netherlands", "minutes": 1200},
+  {"name": "Riccardo Calafiori", "league": "Premier League", "team": "Arsenal", "position": "DF", "nationality": "Italy", "minutes": 1500},
+  {"name": "Declan Rice", "league": "Premier League", "team": "Arsenal", "position": "MF", "nationality": "England", "minutes": 3300},
+  {"name": "Martin Odegaard", "league": "Premier League", "team": "Arsenal", "position": "MF", "nationality": "Norway", "minutes": 3000},
+  {"name": "Mikel Merino", "league": "Premier League", "team": "Arsenal", "position": "MF", "nationality": "Spain", "minutes": 1400},
+  {"name": "Bukayo Saka", "league": "Premier League", "team": "Arsenal", "position": "FW", "nationality": "England", "minutes": 3100},
+  {"name": "Gabriel Martinelli", "league": "Premier League", "team": "Arsenal", "position": "FW", "nationality": "Brazil", "minutes": 2400},
+  {"name": "Leandro Trossard", "league": "Premier League", "team": "Arsenal", "position": "FW", "nationality": "Belgium", "minutes": 1800},
+  {"name": "Kai Havertz", "league": "Premier League", "team": "Arsenal", "position": "FW", "nationality": "Germany", "minutes": 2700},
+  {"name": "Gabriel Jesus", "league": "Premier League", "team": "Arsenal", "position": "FW", "nationality": "Brazil", "minutes": 1600},
+
+  {"name": "Virgil van Dijk", "league": "Premier League", "team": "Liverpool", "position": "DF", "nationality": "Netherlands", "minutes": 3100},
+  {"name": "Ibrahima Konate", "league": "Premier League", "team": "Liverpool", "position": "DF", "nationality": "France", "minutes": 2200},
+  {"name": "Trent Alexander-Arnold", "league": "Premier League", "team": "Liverpool", "position": "DF", "nationality": "England", "minutes": 2500},
+  {"name": "Andy Robertson", "league": "Premier League", "team": "Liverpool", "position": "DF", "nationality": "Scotland", "minutes": 2000},
+  {"name": "Conor Bradley", "league": "Premier League", "team": "Liverpool", "position": "DF", "nationality": "Northern Ireland", "minutes": 1400},
+  {"name": "Alexis Mac Allister", "league": "Premier League", "team": "Liverpool", "position": "MF", "nationality": "Argentina", "minutes": 2700},
+  {"name": "Dominik Szoboszlai", "league": "Premier League", "team": "Liverpool", "position": "MF", "nationality": "Hungary", "minutes": 2400},
+  {"name": "Ryan Gravenberch", "league": "Premier League", "team": "Liverpool", "position": "MF", "nationality": "Netherlands", "minutes": 1800},
+  {"name": "Mohamed Salah", "league": "Premier League", "team": "Liverpool", "position": "FW", "nationality": "Egypt", "minutes": 2800},
+  {"name": "Luis Diaz", "league": "Premier League", "team": "Liverpool", "position": "FW", "nationality": "Colombia", "minutes": 2600},
+  {"name": "Diogo Jota", "league": "Premier League", "team": "Liverpool", "position": "FW", "nationality": "Portugal", "minutes": 1500},
+  {"name": "Darwin Nunez", "league": "Premier League", "team": "Liverpool", "position": "FW", "nationality": "Uruguay", "minutes": 2100},
+  {"name": "Cody Gakpo", "league": "Premier League", "team": "Liverpool", "position": "FW", "nationality": "Netherlands", "minutes": 1900},
+
+  {"name": "Ezri Konsa", "league": "Premier League", "team": "Aston Villa", "position": "DF", "nationality": "England", "minutes": 3000},
+  {"name": "Pau Torres", "league": "Premier League", "team": "Aston Villa", "position": "DF", "nationality": "Spain", "minutes": 2800},
+  {"name": "Matty Cash", "league": "Premier League", "team": "Aston Villa", "position": "DF", "nationality": "Poland", "minutes": 2200},
+  {"name": "Lucas Digne", "league": "Premier League", "team": "Aston Villa", "position": "DF", "nationality": "France", "minutes": 2100},
+  {"name": "Ian Maatsen", "league": "Premier League", "team": "Aston Villa", "position": "DF", "nationality": "Netherlands", "minutes": 1500},
+  {"name": "Amadou Onana", "league": "Premier League", "team": "Aston Villa", "position": "MF", "nationality": "Belgium", "minutes": 2400},
+  {"name": "John McGinn", "league": "Premier League", "team": "Aston Villa", "position": "MF", "nationality": "Scotland", "minutes": 3100},
+  {"name": "Youri Tielemans", "league": "Premier League", "team": "Aston Villa", "position": "MF", "nationality": "Belgium", "minutes": 2000},
+  {"name": "Morgan Rogers", "league": "Premier League", "team": "Aston Villa", "position": "MF", "nationality": "England", "minutes": 1600},
+  {"name": "Leon Bailey", "league": "Premier League", "team": "Aston Villa", "position": "FW", "nationality": "Jamaica", "minutes": 2100},
+  {"name": "Ollie Watkins", "league": "Premier League", "team": "Aston Villa", "position": "FW", "nationality": "England", "minutes": 3200},
+  {"name": "Jhon Duran", "league": "Premier League", "team": "Aston Villa", "position": "FW", "nationality": "Colombia", "minutes": 1200},
+  {"name": "Jacob Ramsey", "league": "Premier League", "team": "Aston Villa", "position": "MF", "nationality": "England", "minutes": 1400},
+
+  {"name": "Cristian Romero", "league": "Premier League", "team": "Tottenham", "position": "DF", "nationality": "Argentina", "minutes": 2900},
+  {"name": "Micky van de Ven", "league": "Premier League", "team": "Tottenham", "position": "DF", "nationality": "Netherlands", "minutes": 2400},
+  {"name": "Pedro Porro", "league": "Premier League", "team": "Tottenham", "position": "DF", "nationality": "Spain", "minutes": 3100},
+  {"name": "Destiny Udogie", "league": "Premier League", "team": "Tottenham", "position": "DF", "nationality": "Italy", "minutes": 2600},
+  {"name": "Radu Dragusin", "league": "Premier League", "team": "Tottenham", "position": "DF", "nationality": "Romania", "minutes": 1100},
+  {"name": "Yves Bissouma", "league": "Premier League", "team": "Tottenham", "position": "MF", "nationality": "Mali", "minutes": 2100},
+  {"name": "Pape Matar Sarr", "league": "Premier League", "team": "Tottenham", "position": "MF", "nationality": "Senegal", "minutes": 2200},
+  {"name": "James Maddison", "league": "Premier League", "team": "Tottenham", "position": "MF", "nationality": "England", "minutes": 2300},
+  {"name": "Rodrigo Bentancur", "league": "Premier League", "team": "Tottenham", "position": "MF", "nationality": "Uruguay", "minutes": 1500},
+  {"name": "Dejan Kulusevski", "league": "Premier League", "team": "Tottenham", "position": "FW", "nationality": "Sweden", "minutes": 2800},
+  {"name": "Son Heung-min", "league": "Premier League", "team": "Tottenham", "position": "FW", "nationality": "South Korea", "minutes": 3000},
+  {"name": "Brennan Johnson", "league": "Premier League", "team": "Tottenham", "position": "FW", "nationality": "Wales", "minutes": 2100},
+  {"name": "Dominic Solanke", "league": "Premier League", "team": "Tottenham", "position": "FW", "nationality": "England", "minutes": 3200},
+
+  {"name": "Antonio Rudiger", "league": "La Liga", "team": "Real Madrid", "position": "DF", "nationality": "Germany", "minutes": 3100},
+  {"name": "Eder Militao", "league": "La Liga", "team": "Real Madrid", "position": "DF", "nationality": "Brazil", "minutes": 1500},
+  {"name": "Dani Carvajal", "league": "La Liga", "team": "Real Madrid", "position": "DF", "nationality": "Spain", "minutes": 2600},
+  {"name": "Ferland Mendy", "league": "La Liga", "team": "Real Madrid", "position": "DF", "nationality": "France", "minutes": 2200},
+  {"name": "Aurelien Tchouameni", "league": "La Liga", "team": "Real Madrid", "position": "MF", "nationality": "France", "minutes": 2400},
+  {"name": "Eduardo Camavinga", "league": "La Liga", "team": "Real Madrid", "position": "MF", "nationality": "France", "minutes": 2100},
+  {"name": "Federico Valverde", "league": "La Liga", "team": "Real Madrid", "position": "MF", "nationality": "Uruguay", "minutes": 3200},
+  {"name": "Jude Bellingham", "league": "La Liga", "team": "Real Madrid", "position": "MF", "nationality": "England", "minutes": 2700},
+  {"name": "Luka Modric", "league": "La Liga", "team": "Real Madrid", "position": "MF", "nationality": "Croatia", "minutes": 1600},
+  {"name": "Vinicius Junior", "league": "La Liga", "team": "Real Madrid", "position": "FW", "nationality": "Brazil", "minutes": 2500},
+  {"name": "Kylian Mbappe", "league": "La Liga", "team": "Real Madrid", "position": "FW", "nationality": "France", "minutes": 2800},
+  {"name": "Rodrygo", "league": "La Liga", "team": "Real Madrid", "position": "FW", "nationality": "Brazil", "minutes": 2600},
+  {"name": "Brahim Diaz", "league": "La Liga", "team": "Real Madrid", "position": "FW", "nationality": "Morocco", "minutes": 1500},
+
+  {"name": "Ronald Araujo", "league": "La Liga", "team": "Barcelona", "position": "DF", "nationality": "Uruguay", "minutes": 2200},
+  {"name": "Pau Cubarsi", "league": "La Liga", "team": "Barcelona", "position": "DF", "nationality": "Spain", "minutes": 1600},
+  {"name": "Jules Kounde", "league": "La Liga", "team": "Barcelona", "position": "DF", "nationality": "France", "minutes": 3000},
+  {"name": "Alejandro Balde", "league": "La Liga", "team": "Barcelona", "position": "DF", "nationality": "Spain", "minutes": 1800},
+  {"name": "Andreas Christensen", "league": "La Liga", "team": "Barcelona", "position": "DF", "nationality": "Denmark", "minutes": 2100},
+  {"name": "Pedri", "league": "La Liga", "team": "Barcelona", "position": "MF", "nationality": "Spain", "minutes": 1700},
+  {"name": "Gavi", "league": "La Liga", "team": "Barcelona", "position": "MF", "nationality": "Spain", "minutes": 1200},
+  {"name": "Frenkie de Jong", "league": "La Liga", "team": "Barcelona", "position": "MF", "nationality": "Netherlands", "minutes": 2100},
+  {"name": "Dani Olmo", "league": "La Liga", "team": "Barcelona", "position": "MF", "nationality": "Spain", "minutes": 1900},
+  {"name": "Lamine Yamal", "league": "La Liga", "team": "Barcelona", "position": "FW", "nationality": "Spain", "minutes": 2300},
+  {"name": "Robert Lewandowski", "league": "La Liga", "team": "Barcelona", "position": "FW", "nationality": "Poland", "minutes": 2900},
+  {"name": "Raphinha", "league": "La Liga", "team": "Barcelona", "position": "FW", "nationality": "Brazil", "minutes": 2100},
+  {"name": "Ferran Torres", "league": "La Liga", "team": "Barcelona", "position": "FW", "nationality": "Spain", "minutes": 1600},
+
+  {"name": "Jose Maria Gimenez", "league": "La Liga", "team": "Atletico Madrid", "position": "DF", "nationality": "Uruguay", "minutes": 1900},
+  {"name": "Robin Le Normand", "league": "La Liga", "team": "Atletico Madrid", "position": "DF", "nationality": "Spain", "minutes": 2600},
+  {"name": "Nahuel Molina", "league": "La Liga", "team": "Atletico Madrid", "position": "DF", "nationality": "Argentina", "minutes": 2200},
+  {"name": "Samuel Lino", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "Brazil", "minutes": 2500},
+  {"name": "Marcos Llorente", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "Spain", "minutes": 2800},
+  {"name": "Koke", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "Spain", "minutes": 2900},
+  {"name": "Rodrigo De Paul", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "Argentina", "minutes": 2600},
+  {"name": "Conor Gallagher", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "England", "minutes": 2000},
+  {"name": "Antoine Griezmann", "league": "La Liga", "team": "Atletico Madrid", "position": "FW", "nationality": "France", "minutes": 3000},
+  {"name": "Julian Alvarez", "league": "La Liga", "team": "Atletico Madrid", "position": "FW", "nationality": "Argentina", "minutes": 2400},
+  {"name": "Alexander Sorloth", "league": "La Liga", "team": "Atletico Madrid", "position": "FW", "nationality": "Norway", "minutes": 2700},
+  {"name": "Angel Correa", "league": "La Liga", "team": "Atletico Madrid", "position": "FW", "nationality": "Argentina", "minutes": 1500},
+  {"name": "Rodrigo Riquelme", "league": "La Liga", "team": "Atletico Madrid", "position": "MF", "nationality": "Spain", "minutes": 1600},
+
+  {"name": "Dani Vivian", "league": "La Liga", "team": "Athletic Club", "position": "DF", "nationality": "Spain", "minutes": 3000},
+  {"name": "Yeray Alvarez", "league": "La Liga", "team": "Athletic Club", "position": "DF", "nationality": "Spain", "minutes": 1800},
+  {"name": "Oscar de Marcos", "league": "La Liga", "team": "Athletic Club", "position": "DF", "nationality": "Spain", "minutes": 2400},
+  {"name": "Yuri Berchiche", "league": "La Liga", "team": "Athletic Club", "position": "DF", "nationality": "Spain", "minutes": 2200},
+  {"name": "Benat Prados", "league": "La Liga", "team": "Athletic Club", "position": "MF", "nationality": "Spain", "minutes": 2000},
+  {"name": "Inigo Ruiz de Galarreta", "league": "La Liga", "team": "Athletic Club", "position": "MF", "nationality": "Spain", "minutes": 2100},
+  {"name": "Oihan Sancet", "league": "La Liga", "team": "Athletic Club", "position": "MF", "nationality": "Spain", "minutes": 2500},
+  {"name": "Mikel Vesga", "league": "La Liga", "team": "Athletic Club", "position": "MF", "nationality": "Spain", "minutes": 1900},
+  {"name": "Inaki Williams", "league": "La Liga", "team": "Athletic Club", "position": "FW", "nationality": "Ghana", "minutes": 3100},
+  {"name": "Nico Williams", "league": "La Liga", "team": "Athletic Club", "position": "FW", "nationality": "Spain", "minutes": 2600},
+  {"name": "Gorka Guruzeta", "league": "La Liga", "team": "Athletic Club", "position": "FW", "nationality": "Spain", "minutes": 2400},
+  {"name": "Alex Berenguer", "league": "La Liga", "team": "Athletic Club", "position": "FW", "nationality": "Spain", "minutes": 1800},
+  {"name": "Alvaro Djalo", "league": "La Liga", "team": "Athletic Club", "position": "FW", "nationality": "Spain", "minutes": 1400},
+
+  {"name": "Daley Blind", "league": "La Liga", "team": "Girona", "position": "DF", "nationality": "Netherlands", "minutes": 2900},
+  {"name": "David Lopez", "league": "La Liga", "team": "Girona", "position": "DF", "nationality": "Spain", "minutes": 2100},
+  {"name": "Miguel Gutierrez", "league": "La Liga", "team": "Girona", "position": "DF", "nationality": "Spain", "minutes": 3100},
+  {"name": "Arnau Martinez", "league": "La Liga", "team": "Girona", "position": "DF", "nationality": "Spain", "minutes": 1800},
+  {"name": "Oriol Romeu", "league": "La Liga", "team": "Girona", "position": "MF", "nationality": "Spain", "minutes": 2000},
+  {"name": "Yangel Herrera", "league": "La Liga", "team": "Girona", "position": "MF", "nationality": "Venezuela", "minutes": 2200},
+  {"name": "Ivan Martin", "league": "La Liga", "team": "Girona", "position": "MF", "nationality": "Spain", "minutes": 2800},
+  {"name": "Donny van de Beek", "league": "La Liga", "team": "Girona", "position": "MF", "nationality": "Netherlands", "minutes": 1200},
+  {"name": "Viktor Tsygankov", "league": "La Liga", "team": "Girona", "position": "FW", "nationality": "Ukraine", "minutes": 2400},
+  {"name": "Arnaut Danjuma", "league": "La Liga", "team": "Girona", "position": "FW", "nationality": "Netherlands", "minutes": 1500},
+  {"name": "Abel Ruiz", "league": "La Liga", "team": "Girona", "position": "FW", "nationality": "Spain", "minutes": 1900},
+  {"name": "Portu", "league": "La Liga", "team": "Girona", "position": "FW", "nationality": "Spain", "minutes": 1700},
+  {"name": "Cristhian Stuani", "league": "La Liga", "team": "Girona", "position": "FW", "nationality": "Uruguay", "minutes": 1100},
+
+  {"name": "Alessandro Bastoni", "league": "Serie A", "team": "Inter Milan", "position": "DF", "nationality": "Italy", "minutes": 2700},
+  {"name": "Benjamin Pavard", "league": "Serie A", "team": "Inter Milan", "position": "DF", "nationality": "France", "minutes": 2100},
+  {"name": "Francesco Acerbi", "league": "Serie A", "team": "Inter Milan", "position": "DF", "nationality": "Italy", "minutes": 2300},
+  {"name": "Federico Dimarco", "league": "Serie A", "team": "Inter Milan", "position": "DF", "nationality": "Italy", "minutes": 2400},
+  {"name": "Denzel Dumfries", "league": "Serie A", "team": "Inter Milan", "position": "DF", "nationality": "Netherlands", "minutes": 1900},
+  {"name": "Nicolo Barella", "league": "Serie A", "team": "Inter Milan", "position": "MF", "nationality": "Italy", "minutes": 3000},
+  {"name": "Hakan Calhanoglu", "league": "Serie A", "team": "Inter Milan", "position": "MF", "nationality": "Turkey", "minutes": 2800},
+  {"name": "Henrikh Mkhitaryan", "league": "Serie A", "team": "Inter Milan", "position": "MF", "nationality": "Armenia", "minutes": 2700},
+  {"name": "Davide Frattesi", "league": "Serie A", "team": "Inter Milan", "position": "MF", "nationality": "Italy", "minutes": 1400},
+  {"name": "Piotr Zielinski", "league": "Serie A", "team": "Inter Milan", "position": "MF", "nationality": "Poland", "minutes": 2000},
+  {"name": "Lautaro Martinez", "league": "Serie A", "team": "Inter Milan", "position": "FW", "nationality": "Argentina", "minutes": 2900},
+  {"name": "Marcus Thuram", "league": "Serie A", "team": "Inter Milan", "position": "FW", "nationality": "France", "minutes": 2500},
+  {"name": "Mehdi Taremi", "league": "Serie A", "team": "Inter Milan", "position": "FW", "nationality": "Iran", "minutes": 1600},
+
+  {"name": "Fikayo Tomori", "league": "Serie A", "team": "AC Milan", "position": "DF", "nationality": "England", "minutes": 2500},
+  {"name": "Strahinja Pavlovic", "league": "Serie A", "team": "AC Milan", "position": "DF", "nationality": "Serbia", "minutes": 1800},
+  {"name": "Theo Hernandez", "league": "Serie A", "team": "AC Milan", "position": "DF", "nationality": "France", "minutes": 2900},
+  {"name": "Davide Calabria", "league": "Serie A", "team": "AC Milan", "position": "DF", "nationality": "Italy", "minutes": 2100},
+  {"name": "Tijjani Reijnders", "league": "Serie A", "team": "AC Milan", "position": "MF", "nationality": "Netherlands", "minutes": 2800},
+  {"name": "Youssouf Fofana", "league": "Serie A", "team": "AC Milan", "position": "MF", "nationality": "France", "minutes": 2300},
+  {"name": "Ruben Loftus-Cheek", "league": "Serie A", "team": "AC Milan", "position": "MF", "nationality": "England", "minutes": 2400},
+  {"name": "Ismael Bennacer", "league": "Serie A", "team": "AC Milan", "position": "MF", "nationality": "Algeria", "minutes": 1500},
+  {"name": "Christian Pulisic", "league": "Serie A", "team": "AC Milan", "position": "FW", "nationality": "USA", "minutes": 2700},
+  {"name": "Rafael Leao", "league": "Serie A", "team": "AC Milan", "position": "FW", "nationality": "Portugal", "minutes": 2600},
+  {"name": "Alvaro Morata", "league": "Serie A", "team": "AC Milan", "position": "FW", "nationality": "Spain", "minutes": 2100},
+  {"name": "Noah Okafor", "league": "Serie A", "team": "AC Milan", "position": "FW", "nationality": "Switzerland", "minutes": 1300},
+  {"name": "Samuel Chukwueze", "league": "Serie A", "team": "AC Milan", "position": "FW", "nationality": "Nigeria", "minutes": 1400},
+
+  {"name": "Gleison Bremer", "league": "Serie A", "team": "Juventus", "position": "DF", "nationality": "Brazil", "minutes": 3100},
+  {"name": "Federico Gatti", "league": "Serie A", "team": "Juventus", "position": "DF", "nationality": "Italy", "minutes": 2400},
+  {"name": "Andrea Cambiaso", "league": "Serie A", "team": "Juventus", "position": "DF", "nationality": "Italy", "minutes": 2500},
+  {"name": "Danilo", "league": "Serie A", "team": "Juventus", "position": "DF", "nationality": "Brazil", "minutes": 2300},
+  {"name": "Manuel Locatelli", "league": "Serie A", "team": "Juventus", "position": "MF", "nationality": "Italy", "minutes": 2800},
+  {"name": "Douglas Luiz", "league": "Serie A", "team": "Juventus", "position": "MF", "nationality": "Brazil", "minutes": 2400},
+  {"name": "Teun Koopmeiners", "league": "Serie A", "team": "Juventus", "position": "MF", "nationality": "Netherlands", "minutes": 2700},
+  {"name": "Khephren Thuram", "league": "Serie A", "team": "Juventus", "position": "MF", "nationality": "France", "minutes": 2100},
+  {"name": "Dusan Vlahovic", "league": "Serie A", "team": "Juventus", "position": "FW", "nationality": "Serbia", "minutes": 2600},
+  {"name": "Kenan Yildiz", "league": "Serie A", "team": "Juventus", "position": "FW", "nationality": "Turkey", "minutes": 1600},
+  {"name": "Nico Gonzalez", "league": "Serie A", "team": "Juventus", "position": "FW", "nationality": "Argentina", "minutes": 2300},
+  {"name": "Francisco Conceicao", "league": "Serie A", "team": "Juventus", "position": "FW", "nationality": "Portugal", "minutes": 1400},
+  {"name": "Timothy Weah", "league": "Serie A", "team": "Juventus", "position": "MF", "nationality": "USA", "minutes": 1500},
+
+  {"name": "Isak Hien", "league": "Serie A", "team": "Atalanta", "position": "DF", "nationality": "Sweden", "minutes": 2100},
+  {"name": "Sead Kolasinac", "league": "Serie A", "team": "Atalanta", "position": "DF", "nationality": "Bosnia and Herzegovina", "minutes": 2400},
+  {"name": "Berat Djimsiti", "league": "Serie A", "team": "Atalanta", "position": "DF", "nationality": "Albania", "minutes": 2800},
+  {"name": "Raoul Bellanova", "league": "Serie A", "team": "Atalanta", "position": "DF", "nationality": "Italy", "minutes": 2600},
+  {"name": "Matteo Ruggeri", "league": "Serie A", "team": "Atalanta", "position": "DF", "nationality": "Italy", "minutes": 2500},
+  {"name": "Ederson", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Brazil", "minutes": 2900},
+  {"name": "Marten de Roon", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Netherlands", "minutes": 2800},
+  {"name": "Mario Pasalic", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Croatia", "minutes": 2200},
+  {"name": "Lazar Samardzic", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Serbia", "minutes": 1800},
+  {"name": "Ademola Lookman", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Nigeria", "minutes": 2400},
+  {"name": "Mateo Retegui", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Italy", "minutes": 2200},
+  {"name": "Charles De Ketelaere", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Belgium", "minutes": 2300},
+  {"name": "Nicolo Zaniolo", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Italy", "minutes": 1200},
+
+  {"name": "Amir Rrahmani", "league": "Serie A", "team": "Napoli", "position": "DF", "nationality": "Kosovo", "minutes": 2900},
+  {"name": "Alessandro Buongiorno", "league": "Serie A", "team": "Napoli", "position": "DF", "nationality": "Italy", "minutes": 2500},
+  {"name": "Giovanni Di Lorenzo", "league": "Serie A", "team": "Napoli", "position": "DF", "nationality": "Italy", "minutes": 3100},
+  {"name": "Mathias Olivera", "league": "Serie A", "team": "Napoli", "position": "DF", "nationality": "Uruguay", "minutes": 1900},
+  {"name": "Stanislav Lobotka", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Slovakia", "minutes": 3000},
+  {"name": "Andre-Frank Zambo Anguissa", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Cameroon", "minutes": 2800},
+  {"name": "Scott McTominay", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Scotland", "minutes": 2100},
+  {"name": "Billy Gilmour", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Scotland", "minutes": 1800},
+  {"name": "Khvicha Kvaratskhelia", "league": "Serie A", "team": "Napoli", "position": "FW", "nationality": "Georgia", "minutes": 2700},
+  {"name": "Romelu Lukaku", "league": "Serie A", "team": "Napoli", "position": "FW", "nationality": "Belgium", "minutes": 2400},
+  {"name": "Matteo Politano", "league": "Serie A", "team": "Napoli", "position": "FW", "nationality": "Italy", "minutes": 2100},
+  {"name": "David Neres", "league": "Serie A", "team": "Napoli", "position": "FW", "nationality": "Brazil", "minutes": 1500},
+  {"name": "Giacomo Raspadori", "league": "Serie A", "team": "Napoli", "position": "FW", "nationality": "Italy", "minutes": 1400},
+
+  {"name": "Dayot Upamecano", "league": "Bundesliga", "team": "Bayern Munich", "position": "DF", "nationality": "France", "minutes": 2200},
+  {"name": "Kim Min-jae", "league": "Bundesliga", "team": "Bayern Munich", "position": "DF", "nationality": "South Korea", "minutes": 2400},
+  {"name": "Alphonso Davies", "league": "Bundesliga", "team": "Bayern Munich", "position": "DF", "nationality": "Canada", "minutes": 2300},
+  {"name": "Sacha Boey", "league": "Bundesliga", "team": "Bayern Munich", "position": "DF", "nationality": "France", "minutes": 1200},
+  {"name": "Joshua Kimmich", "league": "Bundesliga", "team": "Bayern Munich", "position": "MF", "nationality": "Germany", "minutes": 2800},
+  {"name": "Aleksandar Pavlovic", "league": "Bundesliga", "team": "Bayern Munich", "position": "MF", "nationality": "Germany", "minutes": 1700},
+  {"name": "Joao Palhinha", "league": "Bundesliga", "team": "Bayern Munich", "position": "MF", "nationality": "Portugal", "minutes": 2100},
+  {"name": "Leon Goretzka", "league": "Bundesliga", "team": "Bayern Munich", "position": "MF", "nationality": "Germany", "minutes": 1900},
+  {"name": "Jamal Musiala", "league": "Bundesliga", "team": "Bayern Munich", "position": "MF", "nationality": "Germany", "minutes": 2500},
+  {"name": "Michael Olise", "league": "Bundesliga", "team": "Bayern Munich", "position": "FW", "nationality": "France", "minutes": 2200},
+  {"name": "Serge Gnabry", "league": "Bundesliga", "team": "Bayern Munich", "position": "FW", "nationality": "Germany", "minutes": 1500},
+  {"name": "Leroy Sane", "league": "Bundesliga", "team": "Bayern Munich", "position": "FW", "nationality": "Germany", "minutes": 2300},
+  {"name": "Harry Kane", "league": "Bundesliga", "team": "Bayern Munich", "position": "FW", "nationality": "England", "minutes": 3100},
+
+  {"name": "Jonathan Tah", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "DF", "nationality": "Germany", "minutes": 2900},
+  {"name": "Edmond Tapsoba", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "DF", "nationality": "Burkina Faso", "minutes": 2600},
+  {"name": "Piero Hincapie", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "DF", "nationality": "Ecuador", "minutes": 2200},
+  {"name": "Jeremie Frimpong", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "DF", "nationality": "Netherlands", "minutes": 2500},
+  {"name": "Alejandro Grimaldo", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "DF", "nationality": "Spain", "minutes": 3000},
+  {"name": "Granit Xhaka", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "MF", "nationality": "Switzerland", "minutes": 3200},
+  {"name": "Robert Andrich", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "MF", "nationality": "Germany", "minutes": 2100},
+  {"name": "Exequiel Palacios", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "MF", "nationality": "Argentina", "minutes": 2300},
+  {"name": "Florian Wirtz", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "MF", "nationality": "Germany", "minutes": 2800},
+  {"name": "Jonas Hofmann", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "MF", "nationality": "Germany", "minutes": 1800},
+  {"name": "Martin Terrier", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "FW", "nationality": "France", "minutes": 1700},
+  {"name": "Victor Boniface", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "FW", "nationality": "Nigeria", "minutes": 2200},
+  {"name": "Patrik Schick", "league": "Bundesliga", "team": "Bayer Leverkusen", "position": "FW", "nationality": "Czech Republic", "minutes": 1500},
+
+  {"name": "Nico Schlotterbeck", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "DF", "nationality": "Germany", "minutes": 3100},
+  {"name": "Waldemar Anton", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "DF", "nationality": "Germany", "minutes": 2800},
+  {"name": "Julian Ryerson", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "DF", "nationality": "Norway", "minutes": 2400},
+  {"name": "Ramy Bensebaini", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "DF", "nationality": "Algeria", "minutes": 1800},
+  {"name": "Emre Can", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "MF", "nationality": "Germany", "minutes": 2300},
+  {"name": "Pascal Gross", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "MF", "nationality": "Germany", "minutes": 2600},
+  {"name": "Marcel Sabitzer", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "MF", "nationality": "Austria", "minutes": 2500},
+  {"name": "Julian Brandt", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "MF", "nationality": "Germany", "minutes": 2700},
+  {"name": "Karim Adeyemi", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "FW", "nationality": "Germany", "minutes": 1900},
+  {"name": "Donyell Malen", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "FW", "nationality": "Netherlands", "minutes": 2100},
+  {"name": "Jamie Gittens", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "FW", "nationality": "England", "minutes": 1600},
+  {"name": "Serhou Guirassy", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "FW", "nationality": "Guinea", "minutes": 2500},
+  {"name": "Maximilian Beier", "league": "Bundesliga", "team": "Borussia Dortmund", "position": "FW", "nationality": "Germany", "minutes": 2200},
+
+  {"name": "Castello Lukeba", "league": "Bundesliga", "team": "RB Leipzig", "position": "DF", "nationality": "France", "minutes": 2400},
+  {"name": "Willi Orban", "league": "Bundesliga", "team": "RB Leipzig", "position": "DF", "nationality": "Hungary", "minutes": 2100},
+  {"name": "David Raum", "league": "Bundesliga", "team": "RB Leipzig", "position": "DF", "nationality": "Germany", "minutes": 2800},
+  {"name": "Benjamin Henrichs", "league": "Bundesliga", "team": "RB Leipzig", "position": "DF", "nationality": "Germany", "minutes": 2500},
+  {"name": "Amadou Haidara", "league": "Bundesliga", "team": "RB Leipzig", "position": "MF", "nationality": "Mali", "minutes": 2200},
+  {"name": "Kevin Kampl", "league": "Bundesliga", "team": "RB Leipzig", "position": "MF", "nationality": "Slovenia", "minutes": 1800},
+  {"name": "Nicolas Seiwald", "league": "Bundesliga", "team": "RB Leipzig", "position": "MF", "nationality": "Austria", "minutes": 1900},
+  {"name": "Xavi Simons", "league": "Bundesliga", "team": "RB Leipzig", "position": "MF", "nationality": "Netherlands", "minutes": 2900},
+  {"name": "Christoph Baumgartner", "league": "Bundesliga", "team": "RB Leipzig", "position": "MF", "nationality": "Austria", "minutes": 2000},
+  {"name": "Lois Openda", "league": "Bundesliga", "team": "RB Leipzig", "position": "FW", "nationality": "Belgium", "minutes": 3000},
+  {"name": "Benjamin Sesko", "league": "Bundesliga", "team": "RB Leipzig", "position": "FW", "nationality": "Slovenia", "minutes": 2300},
+  {"name": "Antonio Nusa", "league": "Bundesliga", "team": "RB Leipzig", "position": "FW", "nationality": "Norway", "minutes": 1400},
+  {"name": "Yussuf Poulsen", "league": "Bundesliga", "team": "RB Leipzig", "position": "FW", "nationality": "Denmark", "minutes": 1600},
+
+  {"name": "Jeff Chabot", "league": "Bundesliga", "team": "Stuttgart", "position": "DF", "nationality": "Germany", "minutes": 2500},
+  {"name": "Anthony Rouault", "league": "Bundesliga", "team": "Stuttgart", "position": "DF", "nationality": "France", "minutes": 2100},
+  {"name": "Josha Vagnoman", "league": "Bundesliga", "team": "Stuttgart", "position": "DF", "nationality": "Germany", "minutes": 1800},
+  {"name": "Maximilian Mittelstadt", "league": "Bundesliga", "team": "Stuttgart", "position": "DF", "nationality": "Germany", "minutes": 2600},
+  {"name": "Atakan Karazor", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "Germany", "minutes": 2900},
+  {"name": "Angelo Stiller", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "Germany", "minutes": 2800},
+  {"name": "Enzo Millot", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "France", "minutes": 2300},
+  {"name": "Chris Fuhrich", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "Germany", "minutes": 2500},
+  {"name": "Jamie Leweling", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "Germany", "minutes": 1900},
+  {"name": "Fabian Rieder", "league": "Bundesliga", "team": "Stuttgart", "position": "MF", "nationality": "Switzerland", "minutes": 1500},
+  {"name": "Deniz Undav", "league": "Bundesliga", "team": "Stuttgart", "position": "FW", "nationality": "Germany", "minutes": 2400},
+  {"name": "Ermedin Demirovic", "league": "Bundesliga", "team": "Stuttgart", "position": "FW", "nationality": "Bosnia and Herzegovina", "minutes": 2700},
+  {"name": "El Bilal Toure", "league": "Bundesliga", "team": "Stuttgart", "position": "FW", "nationality": "Mali", "minutes": 1300},
+
+  {"name": "Marquinhos", "league": "Ligue 1", "team": "PSG", "position": "DF", "nationality": "Brazil", "minutes": 2600},
+  {"name": "Willian Pacho", "league": "Ligue 1", "team": "PSG", "position": "DF", "nationality": "Ecuador", "minutes": 2200},
+  {"name": "Achraf Hakimi", "league": "Ligue 1", "team": "PSG", "position": "DF", "nationality": "Morocco", "minutes": 2500},
+  {"name": "Nuno Mendes", "league": "Ligue 1", "team": "PSG", "position": "DF", "nationality": "Portugal", "minutes": 1800},
+  {"name": "Lucas Beraldo", "league": "Ligue 1", "team": "PSG", "position": "DF", "nationality": "Brazil", "minutes": 1900},
+  {"name": "Joao Neves", "league": "Ligue 1", "team": "PSG", "position": "MF", "nationality": "Portugal", "minutes": 2300},
+  {"name": "Warren Zaire-Emery", "league": "Ligue 1", "team": "PSG", "position": "MF", "nationality": "France", "minutes": 2400},
+  {"name": "Vitinha", "league": "Ligue 1", "team": "PSG", "position": "MF", "nationality": "Portugal", "minutes": 2700},
+  {"name": "Fabian Ruiz", "league": "Ligue 1", "team": "PSG", "position": "MF", "nationality": "Spain", "minutes": 2100},
+  {"name": "Ousmane Dembele", "league": "Ligue 1", "team": "PSG", "position": "FW", "nationality": "France", "minutes": 2200},
+  {"name": "Bradley Barcola", "league": "Ligue 1", "team": "PSG", "position": "FW", "nationality": "France", "minutes": 2100},
+  {"name": "Marco Asensio", "league": "Ligue 1", "team": "PSG", "position": "FW", "nationality": "Spain", "minutes": 1500},
+  {"name": "Randal Kolo Muani", "league": "Ligue 1", "team": "PSG", "position": "FW", "nationality": "France", "minutes": 1800},
+
+  {"name": "Mohammed Salisu", "league": "Ligue 1", "team": "Monaco", "position": "DF", "nationality": "Ghana", "minutes": 2000},
+  {"name": "Thilo Kehrer", "league": "Ligue 1", "team": "Monaco", "position": "DF", "nationality": "Germany", "minutes": 2100},
+  {"name": "Wilfried Singo", "league": "Ligue 1", "team": "Monaco", "position": "DF", "nationality": "Ivory Coast", "minutes": 2300},
+  {"name": "Vanderson", "league": "Ligue 1", "team": "Monaco", "position": "DF", "nationality": "Brazil", "minutes": 2200},
+  {"name": "Denis Zakaria", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "Switzerland", "minutes": 2500},
+  {"name": "Lamine Camara", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "Senegal", "minutes": 1800},
+  {"name": "Takumi Minamino", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "Japan", "minutes": 2400},
+  {"name": "Aleksandr Golovin", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "Russia", "minutes": 2300},
+  {"name": "Maghnes Akliouche", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "France", "minutes": 1900},
+  {"name": "Eliesse Ben Seghir", "league": "Ligue 1", "team": "Monaco", "position": "MF", "nationality": "Morocco", "minutes": 1600},
+  {"name": "Breel Embolo", "league": "Ligue 1", "team": "Monaco", "position": "FW", "nationality": "Switzerland", "minutes": 1700},
+  {"name": "Folarin Balogun", "league": "Ligue 1", "team": "Monaco", "position": "FW", "nationality": "USA", "minutes": 2000},
+  {"name": "George Ilenikhena", "league": "Ligue 1", "team": "Monaco", "position": "FW", "nationality": "France", "minutes": 1200},
+
+  {"name": "Leonardo Balerdi", "league": "Ligue 1", "team": "Marseille", "position": "DF", "nationality": "Argentina", "minutes": 2700},
+  {"name": "Derek Cornelius", "league": "Ligue 1", "team": "Marseille", "position": "DF", "nationality": "Canada", "minutes": 1800},
+  {"name": "Michael Murillo", "league": "Ligue 1", "team": "Marseille", "position": "DF", "nationality": "Panama", "minutes": 2000},
+  {"name": "Quentin Merlin", "league": "Ligue 1", "team": "Marseille", "position": "DF", "nationality": "France", "minutes": 1900},
+  {"name": "Pierre-Emile Hojbjerg", "league": "Ligue 1", "team": "Marseille", "position": "MF", "nationality": "Denmark", "minutes": 2500},
+  {"name": "Geoffrey Kondogbia", "league": "Ligue 1", "team": "Marseille", "position": "MF", "nationality": "Central African Republic", "minutes": 2200},
+  {"name": "Adrien Rabiot", "league": "Ligue 1", "team": "Marseille", "position": "MF", "nationality": "France", "minutes": 2600},
+  {"name": "Amine Harit", "league": "Ligue 1", "team": "Marseille", "position": "MF", "nationality": "Morocco", "minutes": 2100},
+  {"name": "Mason Greenwood", "league": "Ligue 1", "team": "Marseille", "position": "FW", "nationality": "England", "minutes": 2800},
+  {"name": "Luis Henrique", "league": "Ligue 1", "team": "Marseille", "position": "FW", "nationality": "Brazil", "minutes": 1800},
+  {"name": "Elye Wahi", "league": "Ligue 1", "team": "Marseille", "position": "FW", "nationality": "France", "minutes": 2300},
+  {"name": "Jonathan Rowe", "league": "Ligue 1", "team": "Marseille", "position": "FW", "nationality": "England", "minutes": 1500},
+  {"name": "Neal Maupay", "league": "Ligue 1", "team": "Marseille", "position": "FW", "nationality": "France", "minutes": 1600},
+
+  {"name": "Bafode Diakite", "league": "Ligue 1", "team": "Lille", "position": "DF", "nationality": "France", "minutes": 2400},
+  {"name": "Alexsandro", "league": "Ligue 1", "team": "Lille", "position": "DF", "nationality": "Brazil", "minutes": 2300},
+  {"name": "Thomas Meunier", "league": "Ligue 1", "team": "Lille", "position": "DF", "nationality": "Belgium", "minutes": 1900},
+  {"name": "Gabriel Gudmundsson", "league": "Ligue 1", "team": "Lille", "position": "DF", "nationality": "Sweden", "minutes": 2100},
+  {"name": "Mitchel Bakker", "league": "Ligue 1", "team": "Lille", "position": "DF", "nationality": "Netherlands", "minutes": 1500},
+  {"name": "Benjamin Andre", "league": "Ligue 1", "team": "Lille", "position": "MF", "nationality": "France", "minutes": 2900},
+  {"name": "Angel Gomes", "league": "Ligue 1", "team": "Lille", "position": "MF", "nationality": "England", "minutes": 2500},
+  {"name": "Ayyoub Bouaddi", "league": "Ligue 1", "team": "Lille", "position": "MF", "nationality": "France", "minutes": 1400},
+  {"name": "Edon Zhegrova", "league": "Ligue 1", "team": "Lille", "position": "FW", "nationality": "Kosovo", "minutes": 2300},
+  {"name": "Osame Sahraoui", "league": "Ligue 1", "team": "Lille", "position": "FW", "nationality": "Norway", "minutes": 1800},
+  {"name": "Remy Cabella", "league": "Ligue 1", "team": "Lille", "position": "MF", "nationality": "France", "minutes": 2000},
+  {"name": "Jonathan David", "league": "Ligue 1", "team": "Lille", "position": "FW", "nationality": "Canada", "minutes": 3000},
+  {"name": "Mohamed Bayo", "league": "Ligue 1", "team": "Lille", "position": "FW", "nationality": "Guinea", "minutes": 1600},
+
+  {"name": "Duje Caleta-Car", "league": "Ligue 1", "team": "Lyon", "position": "DF", "nationality": "Croatia", "minutes": 2500},
+  {"name": "Moussa Niakhate", "league": "Ligue 1", "team": "Lyon", "position": "DF", "nationality": "Senegal", "minutes": 2000},
+  {"name": "Clinton Mata", "league": "Ligue 1", "team": "Lyon", "position": "DF", "nationality": "Angola", "minutes": 2300},
+  {"name": "Nicolas Tagliafico", "league": "Ligue 1", "team": "Lyon", "position": "DF", "nationality": "Argentina", "minutes": 2400},
+  {"name": "Nemanja Matic", "league": "Ligue 1", "team": "Lyon", "position": "MF", "nationality": "Serbia", "minutes": 2200},
+  {"name": "Maxence Caqueret", "league": "Ligue 1", "team": "Lyon", "position": "MF", "nationality": "France", "minutes": 2700},
+  {"name": "Corentin Tolisso", "league": "Ligue 1", "team": "Lyon", "position": "MF", "nationality": "France", "minutes": 2100},
+  {"name": "Rayan Cherki", "league": "Ligue 1", "team": "Lyon", "position": "MF", "nationality": "France", "minutes": 1900},
+  {"name": "Said Benrahma", "league": "Ligue 1", "team": "Lyon", "position": "FW", "nationality": "Algeria", "minutes": 2100},
+  {"name": "Malick Fofana", "league": "Ligue 1", "team": "Lyon", "position": "FW", "nationality": "Belgium", "minutes": 1700},
+  {"name": "Alexandre Lacazette", "league": "Ligue 1", "team": "Lyon", "position": "FW", "nationality": "France", "minutes": 2800},
+  {"name": "Georges Mikautadze", "league": "Ligue 1", "team": "Lyon", "position": "FW", "nationality": "Georgia", "minutes": 2300},
+  {"name": "Gift Orban", "league": "Ligue 1", "team": "Lyon", "position": "FW", "nationality": "Nigeria", "minutes": 1500}
 ]
