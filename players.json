@@ -69,7 +69,7 @@
   { "name": "Stanislav Lobotka", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Slovakia", "minutes": 2900 },
   { "name": "Giovanni Di Lorenzo", "league": "Serie A", "team": "Napoli", "position": "DF", "nationality": "Italy", "minutes": 3000 },
   { "name": "Frank Anguissa", "league": "Serie A", "team": "Napoli", "position": "MF", "nationality": "Cameroon", "minutes": 2700 },
-  { "name": "Ademola Lookman", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Nigeria", "minutes": 2500 },
+  { "name": "Ademola Lookman", "league": "La Liga", "team": "Atletico Madrid", "position": "FW", "nationality": "Nigeria", "minutes": 2500 },
   { "name": "Éderson", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Brazil", "minutes": 2800 },
   { "name": "Charles De Ketelaere", "league": "Serie A", "team": "Atalanta", "position": "MF", "nationality": "Belgium", "minutes": 2300 },
   { "name": "Mateo Retegui", "league": "Serie A", "team": "Atalanta", "position": "FW", "nationality": "Italy", "minutes": 2400 },
